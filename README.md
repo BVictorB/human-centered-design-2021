@@ -1,3 +1,9 @@
+# :raising_hand: &nbsp; Human Centered Design
+During this course we have to create a digital product for a real person. We each got assigned one out of four people that we had to create the product for. I have to create a solution for Eric Groot Kormelink, we got two options to choose from. The first one being the ability to copy and paste with just speech, because it is difficult to do key combinations for Eric. The second one being the ability to express body language in chat apps. I decided to choose the first one.  
+The goal of this course is to learn how to test digital products with a real person, and then iterate on the results of the test. We have to test our product three times with Eric, and then iterate on it depending on the results of the test. 
+
+
+## Table of contents  
 - [:raising_hand: &nbsp; Human Centered Design](#raising_hand--human-centered-design)
   * [:information_desk_person: &nbsp; User scenario](#information_desk_person--user-scenario)
     + [Who?](#who)
@@ -40,11 +46,6 @@
   * [:inbox_tray: &nbsp; Install](#inbox_tray--install)  
 
 
-# :raising_hand: &nbsp; Human Centered Design
-During this course we have to create a digital product for a real person. We each got assigned one out of four people that we had to create the product for. I have to create a solution for Eric Groot Kormelink, we got two options to choose from. The first one being the ability to copy and paste with just speech, because it is difficult to do key combinations for Eric. The second one being the ability to express body language in chat apps. I decided to choose the first one.  
-The goal of this course is to learn how to test digital products with a real person, and then iterate on the results of the test. We have to test our product three times with Eric, and then iterate on it depending on the results of the test. 
-
-
 ## :information_desk_person: &nbsp; User scenario
 ### Who?
 This project is personally created for Eric Groot Kormelink, who does not have fine motor skills and is therefore in an electric wheelchair. Eric is a designer that uses his computer a lot. When using his computer he runs into problems from time to time since most digital products are not created with disabled people in mind. This is something that can be overlooked by a lot of developers and designers, and I can imagine that this is something that can be very frustrating for someone like Eric.  
@@ -59,10 +60,6 @@ At first I wanted to make a Chrome Extension for Eric so he could use the produc
 
 ### Why?
 This product would be great for Eric, because of his disability he has problems with keyboard combinations. He can type very well and use his mouse without too much issues but using two buttons at the same time can be challenging sometimes. This is why copying and pasting can be difficult for Eric. With this concept he would not have to use two buttons at the same time. In fact, not any buttons since we are using speech (well... maybe one to enable the speech detection).  
-
-
-## :boom: &nbsp; Challenges
-TODO: add things that will make this project challenging
 
 
 ## :fireworks: &nbsp; Concept
@@ -80,6 +77,7 @@ List of features, I have used the MoSCoW method to categorize the features.
 * Should haves:
   - [X] Visible feedback in the DOM when interacting with the extension
   - [X] Instructions how to use the product
+  - [X] Real-time feedback to user (positive/negative alerts)
 
 * Could haves:
   - [ ] Ability to interact with all elements (not just text)
@@ -164,7 +162,7 @@ Finally Eric said that it would be useful to get more information about commands
 ### Iterations
 After this test I realised that making a working Chrome Extension would not be possible in the time that I have left. So I decided to just make a webpage with the working idea how it could look as a Chrome Extension. This way I still have time to do the iterations that I have in mind. I want to add just a single button to a page, and let the user be able to move this button around so they can position it themselves. I also want the user to be able to get real-time feedback after selecting text, so they can check if the selected text is correct. I want to add positive/negative feedback so the user knows exactly what is happening at any given time, I will probably add this with a small text-bubble next to the button, so everything stays in one place.
 
-## Exclusive design principles
+## :cherry_blossom: &nbsp; Exclusive design principles
 TODO: add explanation for every design principle and how I applied them to this project
 
 ### Study situation
