@@ -174,14 +174,38 @@ TODO: add explanation for every design principle and how I applied them to this 
 ### Add nonsense
 
 ## :mortar_board: &nbsp; Final product
+I am very satisfied with the final product. All the features that I wanted to add are added and all the iterations I wanted to make after the last test are implemented/changed. The application works really well, a lot better than I expected!  
+Here are a few screenshots with explanations about the app:  
+
+The default screen with everything expanded, the instructions are shown below the buttons, all commands are explained here. It tells the user what the usage is and how to use it. Above the buttons is also an area that can be shown/hidden, this shows the transcript. So everything you say whilest inputting commands will get shown here. This is great to use when learning how to use the application. Below are some articles that I've found on [nu.nl](https://www.nu.nl/) (a Dutch news website). These are used to test the application.  
+![default screen with everything expanded](https://user-images.githubusercontent.com/10921830/116620935-c7cd7a80-a942-11eb-823d-aacaf27d9a3f.png)  
+
+In this screenshot you can see how the 'select' command works. When the user says 'select [first words] to [last words]' the said words and everything in between gets selected. If it occurs multiple times every single block of text will get selected. The user gets real-time feedback and sees what text is selected.  
+![select command example](https://user-images.githubusercontent.com/10921830/116620940-ca2fd480-a942-11eb-98d3-c41768854a9d.png)  
+
+The copy command works quite simple, if you only have one block of text selected you can just say 'copy' and the text will get copied to your clipboard. However if you have multiple blocks of text selected, you can say 'copy [number of block]' to copy the exact block of text that you want to copy to your clipboard.  
+![copy command example](https://user-images.githubusercontent.com/10921830/116620946-cb610180-a942-11eb-81d7-8ccb0425120f.png)  
+
+With the paste command you can simply say 'paste' to paste the content from your clipboard into the textarea that is located on this page.  
+![paste command example](https://user-images.githubusercontent.com/10921830/116620949-cbf99800-a942-11eb-8b3e-8663986820cc.png)  
+
+With the deselect command you can simply say 'deselect' to deselect all the currently selected text on the page. However this is not required to execute if you want to do another select command.  
+![deselect command example](https://user-images.githubusercontent.com/10921830/116620953-cbf99800-a942-11eb-80ef-178de4eec1fb.png)  
 
 
-## :high_brightness: &nbsp; Conclusion
-TODO: add conclusion with do's and dont's on how to test, explain how the tests are used to improve the product
+## :high_brightness: &nbsp; Conclusion  
+During this course I have learnt a lot about testing with real users. You have to think about a lot more things than I would have expected at the start of this course. Simply said, developing a product that works for every single human being is HARD. I did experience a lot of progression during this course. I have a much better view on how I should prepare for tests like we did. This course also got me thinking about making more accessible applications, which I think is great because we could probably all benefit from this if more people started focussing on accessibility.
 
-### Do's
+### :white_check_mark: &nbsp; Do's
+During testing I have noticed a lot of things that we did very well, and I got some great insights out of it:  
+- Preparing your test with a lot of open questions is great, this gives you a lot of extra insights because the person that is testing your product does not say everything by itself.
+- Because of the problems with using the microphone in multiple tabs at once (see Dont's), we started testing with explaining what you would say at a certain point in the application or letting Eric say what he thinks he should say to get the right results. This was a great solution for the problem we ran into.
+- Ask the right questions early. During the final test Eric told us that he actually doesn't really need speech recognition because he can use his mouse properly. If we found this out early this might have had a huge impact on the final product. This is why it's important to ask this kind of stuff early into the process, so you don't end up doing a lot of work that won't be useful.
 
-### Dont's
+### :x: &nbsp; Dont's
+I have also noticed a lot of things that went wrong during testing:
+- Testing with speech recognition is great, but not when you are doing it remote. There are so many technical issues that appear once people are in a call. This happens because you are using your microphone in multiple places at once. The main problem here was using the microphone in multiple chrome tabs at one.
+- Do not influence someone with your own opinions or thoughts. This is really important because if your application goes into production you also won't be there to steer a user in the right direction.
 
 
 ## :books: &nbsp; Tech stack
