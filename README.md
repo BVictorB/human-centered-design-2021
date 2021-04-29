@@ -2,13 +2,16 @@
 During this course we have to create a digital product for a real person. We each got assigned one out of four people that we had to create the product for. I have to create a solution for Eric Groot Kormelink, we got two options to choose from. The first one being the ability to copy and paste with just speech, because it is difficult to do key combinations for Eric. The second one being the ability to express body language in chat apps. I decided to choose the first one.
 
 ## The assignment
+TODO: explain the assignment and learning goals (testing, iterating etc etc)
 
 ## User scenario
-(Who?, What?, How? and Why?)
+TODO: the user scenario (Who?, What?, How? and Why?)
 
 ## Challenges
+TODO: add things that will make this project challenging
 
 ## Requirements
+TODO: add list of requirements for Eric
 
 ## Concept
 I want to create a Google Chrome extension that you can activate by simply clicking on the icon of the extension in the top bar or the browser. Once activated you can interact with the page that you are currently on by only using speech. I want the user to be able to navigate the page and select text on the page. When the user has text selected he has the option to copy this and paste it somewhere else.
@@ -109,6 +112,7 @@ Finally Eric said that it would be useful to get more information about commands
 
 
 ## Exclusive design principles
+TODO: add explanation for every design principle and how I applied them to this project
 
 ### Study situation
 
@@ -118,4 +122,35 @@ Finally Eric said that it would be useful to get more information about commands
 
 ### Add nonsense
 
-## How I applied the exclusive design principles
+
+## :high_brightness: &nbsp; Conclusion
+TODO: add conclusion with do's and dont's on how to test, explain how the tests are used to improve the product
+
+### Do's
+
+### Dont's
+
+## :books: &nbsp; Tech stack
+TODO: add some explanation about the tech thats used for this project
+
+## :open_file_folder: &nbsp; Live version
+TODO: add live version link and some text
+
+## :scroll: &nbsp; License
+This repo is licensed as MIT by Victor Boucher, 2021.  
+Click [here](https://github.com/BVictorB/human-centered-design-2021/blob/master/LICENSE) if you want to read the license.
+
+## :inbox_tray: &nbsp; Install
+
+- Clone this repo
+```
+git clone https://github.com/BVictorB/human-centered-design-2021 .
+```
+- Install all dependencies
+```
+npm i
+```
+- Install run the code (a browser window opens automatically)
+```
+npm start
+```
