@@ -1,51 +1,64 @@
-# human-centered-design-2021
-During this course we have to create a digital product for a real person. We each got assigned one out of four people that we had to create the product for. I have to create a solution for Eric Groot Kormelink, we got two options to choose from. The first one being the ability to copy and paste with just speech, because it is difficult to do key combinations for Eric. The second one being the ability to express body language in chat apps. I decided to choose the first one.
+TODO: add table of contents
 
-## The assignment
-TODO: explain the assignment and learning goals (testing, iterating etc etc)
+# :raising_hand: &nbsp; Human Centered Design
+During this course we have to create a digital product for a real person. We each got assigned one out of four people that we had to create the product for. I have to create a solution for Eric Groot Kormelink, we got two options to choose from. The first one being the ability to copy and paste with just speech, because it is difficult to do key combinations for Eric. The second one being the ability to express body language in chat apps. I decided to choose the first one.  
+The goal of this course is to learn how to test digital products with a real person, and then iterate on the results of the test. We have to test our product three times with Eric, and then iterate on it depending on the results of the test. 
 
-## User scenario
-TODO: the user scenario (Who?, What?, How? and Why?)
 
-## Challenges
+## :information_desk_person: &nbsp; User scenario
+### Who?
+This project is personally created for Eric Groot Kormelink, who does not have fine motor skills and is therefore in an electric wheelchair. Eric is a designer that uses his computer a lot. When using his computer he runs into problems from time to time since most digital products are not created with disabled people in mind. This is something that can be overlooked by a lot of developers and designers, and I can imagine that this is something that can be very frustrating for someone like Eric.  
+
+![eric](https://user-images.githubusercontent.com/10921830/116613974-9e5c2100-a939-11eb-9b23-6d3d12e1294c.png)  
+
+### What?
+Eric wants to be able to copy and paste text using speech. In the form of an application, extension or website. He would also like to have some other features added that he could perform with speech, this is something that makes a lot of 'easy' tasks much more enjoyable for Eric.  
+
+### How?
+At first I wanted to make a Chrome Extension for Eric so he could use the product on any webpage. But since we had to do three iterations and I did not have any experience with making extensions, I decided to make a prototype on a single webpage that works exactly as I have in mind.  
+
+### Why?
+This product would be great for Eric, because of his disability he has problems with keyboard combinations. He can type very well and use his mouse without too much issues but using two buttons at the same time can be challenging sometimes. This is why copying and pasting can be difficult for Eric. With this concept he would not have to use two buttons at the same time. In fact, not any buttons since we are using speech (well... maybe one to enable the speech detection).  
+
+
+## :boom: &nbsp; Challenges
 TODO: add things that will make this project challenging
 
-## Requirements
-TODO: add list of requirements for Eric
 
-## Concept
+## :fireworks: &nbsp; Concept
 I want to create a Google Chrome extension that you can activate by simply clicking on the icon of the extension in the top bar or the browser. Once activated you can interact with the page that you are currently on by only using speech. I want the user to be able to navigate the page and select text on the page. When the user has text selected he has the option to copy this and paste it somewhere else.
 
-## Features
+
+## :page_with_curl: &nbsp; Features
 List of features, I have used the MoSCoW method to categorize the features.
 
 * Must haves:
-    * Selecting text using speech
-    * Copying text using speech
-    * Pasting text using speech
+  - [X] Selecting text using speech
+  - [X] Copying text using speech
+  - [X] Pasting text using speech
 
 * Should haves:
-    * Navigating a website using speech
-    * Visible feedback in the DOM when interacting with the extension
-    * Instructions how to use the product
+  - [X] Visible feedback in the DOM when interacting with the extension
+  - [X] Instructions how to use the product
 
 * Could haves:
-    * Ability to interact with all elements (not just text)
-    * Ability to save an image using speech
+  - [ ] Ability to interact with all elements (not just text)
+  - [ ] Ability to save an image using speech
+  - [ ] Navigating a website using speech
 
 * Would haves:
-    * Ability to control everything in the browser by just using speech
-    * Letting the user add new commands
-    * Letting the user configure commands
+  - [ ] Ability to control everything in the browser by just using speech
+  - [ ] Letting the user add new commands
+  - [ ] Letting the user configure commands
 
 
-## First test with Eric
+## :one: &nbsp; First test with Eric
 
 ### Preparations
 The first test with Eric was on the first day of this course, we had to create a prototype in just a few hours so we could test it with Eric. We created a website with some sections and paragraphs on it where you could copy a whole section or just a specific paragraph within a section by just using your voice. The prototype worked great when testing it ourselves.
 
 The website that we've built:
-![localhost_3000_](https://user-images.githubusercontent.com/10921830/116111474-f9caac80-a6b6-11eb-96fb-cc01d5b5cf2c.png)
+![first prototype](https://user-images.githubusercontent.com/10921830/116111474-f9caac80-a6b6-11eb-96fb-cc01d5b5cf2c.png)
 
 ### Testing
 While testing the prototype, the website did not recognize Eric his voice at all. This was kind of a bummer because it worked great when we tested it ourselves. He was still able to give some feedback.
@@ -57,7 +70,7 @@ Eric said that it would be nice to be able to select exactly the text that you w
 ### Iterations
 We have not iterated on the product, since we all started working on our own ideas after this test. But the iterations I've made to my ideas are very significant, I decided to go with a Google Chrome extension instead of a website (like described above) and got a very clear vision on how I want this to function.
 
-## Second test with Eric
+## :two: &nbsp; Second test with Eric
 
 ### Preparations
 I did not manage to get a working prototype for the second test, I did however write down a few question to ask Eric. And two students from my group have about the same concept and have already created their prototypes in Figma/Adobe XD, so this could also give me some insights.
@@ -71,7 +84,7 @@ When selecting text with his voice, Eric would like to see live feedback so he c
 ### Iterations
 Watching Eric try out the prototypes that other students made and listening to Eric answering my questions gave me a lot of good insights. I already had a clear image of how I wanted to make the product work and look, and after this second test I have some great improvements. The live feedback whilst selecting text is something that would be really good to add to the features. Also giving feedback when triggering commands with speech is something that I had not yet added to my concept. I want the user to see exactly what the product is detecting and doing at any given time.
 
-## Third test with Eric
+## :three: &nbsp; Third test with Eric
 
 ### Preparations
 For the third (and final) test with Eric I created a prototype of the product. In this prototype I showed all the different functionalities and how they would work when using them. I have also written down a number of questions for Eric to get a bit more information.
@@ -109,7 +122,7 @@ Eric would also like to be able to scroll using speech, or toggle the scrolling 
 Finally Eric said that it would be useful to get more information about commands or steps when you want it, so it would be good to have a small information button at all times so you can check on what you are supposed to do at the step of the process. He would like to have the instructions hidden since the product will be quite easy to learn.
 
 ### Iterations
-
+After this test I realised that making a working Chrome Extension would not be possible in the time that I have left. So I decided to just make a webpage with the working idea how it could look as a Chrome Extension. This way I still have time to do the iterations that I have in mind. I want to add just a single button to a page, and let the user be able to move this button around so they can position it themselves. I also want the user to be able to get real-time feedback after selecting text, so they can check if the selected text is correct. I want to add positive/negative feedback so the user knows exactly what is happening at any given time, I will probably add this with a small text-bubble next to the button, so everything stays in one place.
 
 ## Exclusive design principles
 TODO: add explanation for every design principle and how I applied them to this project
@@ -122,6 +135,8 @@ TODO: add explanation for every design principle and how I applied them to this 
 
 ### Add nonsense
 
+## :mortar_board: &nbsp; Final product
+
 
 ## :high_brightness: &nbsp; Conclusion
 TODO: add conclusion with do's and dont's on how to test, explain how the tests are used to improve the product
@@ -130,15 +145,21 @@ TODO: add conclusion with do's and dont's on how to test, explain how the tests 
 
 ### Dont's
 
+
 ## :books: &nbsp; Tech stack
-TODO: add some explanation about the tech thats used for this project
+For the first version of this project I started working with Chrome Extensions. Making Chrome Extensions is quite 'simple', you just need to have knowledge of HTML, CSS and JavaScript. Google has very good documentation about how to make extensions and do different things (for example interacting with the DOM of the current page that you are on). But since this was quite new for me and we have to make iterations every week, I decided to just make the prototype as a webpage instead of the Chrome Extension.  
+I decided to go with the React framework since I already have experience with it and knew that this would improve my productivity. Also a great reason to go with React for this prototype is that React is great with giving real-time feedback using the state. This really helped me to give the user real-time feedback when interacting with the prototype.  
+I decided to host the prototype on [Vercel](https://vercel.com/), since this is extremely easy and fast to setup. After setting up the hosting on Vercel I decided to host is on a subdomain of my personal website, which you can check out in the next section.
+
 
 ## :open_file_folder: &nbsp; Live version
-TODO: add live version link and some text
+The final result of this project is being hosted on my personal website, click [here](https://hcd.victorboucher.dev/) to view it.
+
 
 ## :scroll: &nbsp; License
 This repo is licensed as MIT by Victor Boucher, 2021.  
 Click [here](https://github.com/BVictorB/human-centered-design-2021/blob/master/LICENSE) if you want to read the license.
+
 
 ## :inbox_tray: &nbsp; Install
 
