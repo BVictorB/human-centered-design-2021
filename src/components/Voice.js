@@ -12,6 +12,7 @@ const Voice = ({ articles, setFormattedArticles }) => {
   const [clipboard, setClipboard] = useClippy()
   const [selected, setSelected] = useState()
   const [showTranscript, setShowTranscript] = useState(false)
+  const [showInstructions, setShowInstructions] = useState(false)
   const [alert, setAlert] = useState()
 
   const commands = [
@@ -101,6 +102,13 @@ const Voice = ({ articles, setFormattedArticles }) => {
       <div className='utils'>
         {showTranscript && <p>{transcript ? transcript : 'De transcriptie verschijnt hier zodra je begint te praten.'}</p>}
         <button onClick={() => setShowTranscript(prevState => !prevState)}>{showTranscript ? 'Verberg transcriptie' : 'Toon transcriptie'}</button>
+        <button onClick={() => setShowInstructions(prevState => !prevState)}>{showInstructions ? 'Verberg instructies' : 'Toon instructies'}</button>
+        {showInstructions && <div className='instructions'>
+          <p><b>Selecteer:</b> zeg 'selecteer [gewenste begin woorden] tot [gewenste eind woorden]' om een stuk tekst te selecteren.</p>
+          <p><b>Deselecteer:</b>  zeg 'deselecteer' om alles te deselecteren.</p>
+          <p><b>Kopieer:</b> zeg 'kopieer' om het eerste (of enige) stuk tekst te kopieeren, zeg 'kopieer [getal]' om een specifieke selectie te seleceren als er meerdere geselecteerde stukken tekst zijn.</p>
+          <p><b>Plak:</b>  zeg 'plak' om tekst te plakken vanaf het klembord.</p>
+        </div>}
         <textarea disabled value={paste} placeholder='Plak hier teskst.'/>
       </div>
       <Draggable>

@@ -46,8 +46,7 @@
   font-weight: 600;
   font-size: 1.1em;
   border-radius: 1rem;
-  display: block;
-  margin: 1rem 0 2rem;
+  margin: 1rem 1em 2rem 0;
   cursor: pointer;
   transition: background 150ms ease-in-out;
 }
@@ -103,4 +102,11 @@
   to {
     transform: translate(-50%, -10em);
   }
+}
+
+.instructions {
+  border: 1px solid #e76f51;
+  padding: 0 1.25em;
+  border-radius: 1em;
+  margin-bottom: 2em;
 }
