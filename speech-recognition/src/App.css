@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.voice-button {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  border: none;
+  background: #e76f51;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.voice-icon {
+  width: 2em;
+  pointer-events: none;
+}
