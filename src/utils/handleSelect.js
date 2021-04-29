@@ -18,7 +18,7 @@ const handleSelect = (first, second, articles, setSelected, setFormattedArticles
     }
   ))
 
-  setFormattedArticles(replacedArticles)
+  return setFormattedArticles(replacedArticles)
 }
 
 export default handleSelect

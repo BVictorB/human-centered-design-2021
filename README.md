@@ -9,7 +9,7 @@ The goal of this course is to learn how to test digital products with a real per
 ### Who?
 This project is personally created for Eric Groot Kormelink, who does not have fine motor skills and is therefore in an electric wheelchair. Eric is a designer that uses his computer a lot. When using his computer he runs into problems from time to time since most digital products are not created with disabled people in mind. This is something that can be overlooked by a lot of developers and designers, and I can imagine that this is something that can be very frustrating for someone like Eric.  
 
-![eric](https://user-images.githubusercontent.com/10921830/116613974-9e5c2100-a939-11eb-9b23-6d3d12e1294c.png)  
+![Eric](https://user-images.githubusercontent.com/10921830/116614256-fc890400-a939-11eb-9e98-ecae691a6731.png)  
 
 ### What?
 Eric wants to be able to copy and paste text using speech. In the form of an application, extension or website. He would also like to have some other features added that he could perform with speech, this is something that makes a lot of 'easy' tasks much more enjoyable for Eric.  
