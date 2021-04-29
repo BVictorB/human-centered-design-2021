@@ -59,6 +59,10 @@ const Voice = ({ articles, setFormattedArticles }) => {
         handleCopy(selected, setClipboard, chosenSelected)
         setCommand('kopieer')
       }
+    },
+    {
+      command: 'dungeons and dragons',
+      callback: () => setCommand('dungeons and dragons')
     }
   ]
 
@@ -81,6 +85,10 @@ const Voice = ({ articles, setFormattedArticles }) => {
     }
     if (command === 'selecteer') {
       setAlert(selected.length ? 'De tekst is geselecteerd!' : 'Deze tekst kon ik niet vinden...')
+      return
+    }
+    if (command === 'dungeons and dragons') {
+      setAlert(Math.floor(Math.random() * 4) + 1)
       return
     }
   }, [command, selected])

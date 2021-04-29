@@ -38,8 +38,8 @@ The goal of this course is to learn how to test digital products with a real per
     + [Add nonsense](#add-nonsense)
   * [:mortar_board: &nbsp; Final product](#mortar_board--final-product)
   * [:high_brightness: &nbsp; Conclusion](#high_brightness--conclusion)
-    + [Do's](#dos)
-    + [Dont's](#donts)
+    + [:white_check_mark: &nbsp; Do's](#white_check_mark--dos)
+    + [:x: &nbsp; Dont's](#x--donts)
   * [:books: &nbsp; Tech stack](#books--tech-stack)
   * [:open_file_folder: &nbsp; Live version](#open_file_folder--live-version)
   * [:scroll: &nbsp; License](#scroll--license)
@@ -163,15 +163,18 @@ Finally Eric said that it would be useful to get more information about commands
 After this test I realised that making a working Chrome Extension would not be possible in the time that I have left. So I decided to just make a webpage with the working idea how it could look as a Chrome Extension. This way I still have time to do the iterations that I have in mind. I want to add just a single button to a page, and let the user be able to move this button around so they can position it themselves. I also want the user to be able to get real-time feedback after selecting text, so they can check if the selected text is correct. I want to add positive/negative feedback so the user knows exactly what is happening at any given time, I will probably add this with a small text-bubble next to the button, so everything stays in one place.
 
 ## :cherry_blossom: &nbsp; Exclusive design principles
-TODO: add explanation for every design principle and how I applied them to this project
-
 ### Study situation
+The most important part was studying how Eric uses his computer and what he is capable of doing and not doing. Since he wanted speech recognition I was expecting that he could not use his keyboard at all. This was a false assumption since Eric can use his keyboard and mouse very well, but keyboard combinations are just very difficult for him. We questioned Eric about his disability during the first test and got a lot of answers that made everything much clearer to us. During the third (and final) test it became very clear to us that Eric might not actually need speech recognition, since he can just use his mouse properly. We could've made a collection of buttons or something similar that floats around on the screen that he can use. But the very useful thing about the use of speech recognition here is for selecting text, since that takes more precision when using your mouse.
 
 ### Prioritise identity
+Eric likes things that just 'work'. He doesn't want things to become overly complicated. Eric just wants the bare minimum so the product is easy to use without too many useless additions to it. I noticed this during my tests and simplified the prototype accordingly, during my last iterations I removed all the useless text and buttons. There is now just a single button that does everything, and if needed you get an alert to let you know what's going on at the moment.
 
 ### Ignore conventions
+The biggest convention that was ignored during this project is copying and pasting text with your keyboard or mouse. This is something that you would never think about if you do not have a disability. That is the reason that we went for speech recognition. Another convention is the proper sizing of assets on a website. I increased the size of the button that activates the speech recognition so it easier for Eric to click on it. It is not extremely large but just a big larger.
 
 ### Add nonsense
+I added the command 'dungeons and dragons' that rolls a D4 dice and gives an alert with the number that was rolled (between 1 and 4). This does not really add any functionality but since Eric is so interested in Dungeons and Dragons this is just a small and fun addition that makes it a bit more personal.  
+
 
 ## :mortar_board: &nbsp; Final product
 I am very satisfied with the final product. All the features that I wanted to add are added and all the iterations I wanted to make after the last test are implemented/changed. The application works really well, a lot better than I expected!  
@@ -193,7 +196,7 @@ With the deselect command you can simply say 'deselect' to deselect all the curr
 ![deselect command example](https://user-images.githubusercontent.com/10921830/116620953-cbf99800-a942-11eb-80ef-178de4eec1fb.png)  
 
 
-## :high_brightness: &nbsp; Conclusion  
+## :high_brightness: &nbsp; Conclusion
 During this course I have learnt a lot about testing with real users. You have to think about a lot more things than I would have expected at the start of this course. Simply said, developing a product that works for every single human being is HARD. I did experience a lot of progression during this course. I have a much better view on how I should prepare for tests like we did. This course also got me thinking about making more accessible applications, which I think is great because we could probably all benefit from this if more people started focussing on accessibility.
 
 ### :white_check_mark: &nbsp; Do's
