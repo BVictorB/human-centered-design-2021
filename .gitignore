@@ -1,2 +1,4 @@
 *node_modules
 /extensions
+/speech-extension
+.DS_Store
